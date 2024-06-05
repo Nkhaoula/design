@@ -1,0 +1,36 @@
+body {
+    background-color: #DDEEAA;
+}
+
+.conteneur{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+}
+.imgTitle{
+    float: right;
+    padding: 1%;
+}
+nav{
+    background-color:#94D63E;
+    padding: 5px;
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-right: 1px solid white;
+    padding: 1px 50px;
+}
+footer{
+    background-color: white;
+    color:#92B116;
+    float: inline-end;
+    padding: 1%;
+
+}
