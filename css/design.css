@@ -5,32 +5,58 @@ body {
 .conteneur{
     background-color: white;
     width: 40%;
-    margin: auto;
+    margin: 0 auto;
 }
+
 .imgTitle{
     float: right;
     padding: 1%;
 }
+
 nav{
     background-color:#94D63E;
     padding: 5px;
     display:flex;
-    justify-content: space-around;
-   
+    justify-content: space-around; 
 }
 
 a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     border-right: 1px solid white;
     padding: 1px 50px;
 }
+
 footer{
     background-color: white;
     color:#92B116;
-    float: inline-end;
+    text-align: right;
     padding: 1%;
 
+}
+
+main{
+    background: url(../img/bg_page.gif) no-repeat;
+    padding-left: 10%; 
+    margin-left: 10px;   
+}
+
+p{
+    text-indent: 3em;
+}
+
+h2{
+    background: url(../img/little_apple.gif) no-repeat left bottom;
+    text-indent: 1em;
+    color: #92B116;
+    border-bottom: 1px solid #92B116;
+}
+
+h3{
+    padding-left: 5px;
+    border-bottom: 1px solid #92B116;
+    border-left: 3px solid #92B116;
+    color: #92B116;
 }
